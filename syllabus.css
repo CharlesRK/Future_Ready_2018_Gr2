@@ -1,0 +1,48 @@
+html {
+    background: #ff6600;
+    
+}
+
+body{
+    background: rgb(250,250,250);
+    margin: auto;
+    max-width: 60%;
+    color: white;
+    padding: 10px;
+}
+
+h1 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    background-color: #ff6600;
+    padding: 10px;
+    text-align: center;
+}
+h3, h2 {
+    font-family: sans-serif;
+    margin-bottom: 10px;
+    background-color: #ee7700;
+    padding: 5px;      
+}
+
+div {
+    margin-top: 10px;
+}
+a {
+    background-color: orange;
+    color: white;
+    font-family: sans-serif;
+    align-items: baseline;
+    text-decoration: none;
+    padding: 7;   
+    
+}
+a:visited {
+    background-color: rgb(300,50,0);
+}
+a:hover {
+    background-color: rgb(300, 200,0);
+}
+.standard {
+    margin: 15px;
+}
