@@ -28,6 +28,12 @@ h3, h2 {
 div {
     margin-top: 10px;
 }
+
+.noteNav {
+    background-color: orange;
+    padding: 5px;
+    font-family: sans-serif;
+}
 a {
     background-color: orange;
     color: white;
@@ -37,9 +43,7 @@ a {
     padding: 7;   
     
 }
-a:visited {
-    background-color: rgb(300,50,0);
-}
+
 a:hover {
     background-color: rgb(300, 200,0);
 }
