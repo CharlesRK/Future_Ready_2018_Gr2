@@ -1,13 +1,15 @@
 <html>
     <head>
         <style>
-            html{
+            body{
                 background-color: orange;
             }
         
 
             .header {
+                border: 2px solid white;
                 background-color: white;
+                
                 height:150px;
             
             }   
@@ -122,22 +124,26 @@
                            width: 100%;
                         }
                      
+                        .signupbtn {
+                            background-color:green;
+                        }
 
             }
             .learner{
                 height: 40px;
                 width: 100px;
-                position: absolute;
-                right: 300px;
-                top 150px;
-                
+                position: fixed;
+                right: 200px;
+                top: 150px;
+                background-color: green;
             }
             .tutor{
                 height: 40px;
                 width: 100px;
-                position: absolute;
-                right: 300px;
+                position: fixed;
+                right: 400px;
                 top: 150px;
+                background-color: green;
 
             }
             
@@ -181,10 +187,17 @@ ONEbutton:hover {
 
 /* Extra styles for the cancel button */
 .ONEcancelbtn {
-    width: auto;
+    width: 300px;
+    height: 50px;
     padding: 10px 18px;
     background-color: #f44336;
 }
+
+            .TWOLogin{
+                width: 300px;
+                height: 50px;
+                background-color:green;
+            }
 
 /* Center the image and position the close button */
 .ONEimgcontainer {
@@ -282,10 +295,146 @@ span.ONEpsw {
             }
             
             .goal{
+                background-color: white;
                 font-align: center;
                 border: 2px solid white;
                 border-radius: 5px;
+                margin-left: 40px;
+                margin-right: 40px;
             }
+            .misson{
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                    margin-right: 30px;
+                    margin-left: 30px;
+                    color: darkorange ;
+            }
+            .missons{
+                font-size: 18;
+                word-spacing: 10px; 
+                }
+            .aboutUs{
+                    background-color: white;
+                font-align: center;
+                border: 2px solid white;
+                border-radius: 5px;
+                margin-left: 40px;
+                margin-right: 40px;
+                }
+            * {box-sizing: border-box}
+                    body {font-family: Verdana, sans-serif; margin:0}
+                    .mySlides {display: none}
+                    img {vertical-align: middle;}
+
+                    /* Slideshow container */
+                    .slideshow-container {
+                      width: 700px;
+                        height: 500px;
+                      position: relative;
+                      margin: auto;
+                    }
+
+                    /* Next & previous buttons */
+                    .prev, .next {
+                      cursor: pointer;
+                      position: absolute;
+                      top: 50%;
+                      width: auto;
+                      padding: 16px;
+                      margin-top: -22px;
+                      color: white;
+                      font-weight: bold;
+                      font-size: 18px;
+                      transition: 0.6s ease;
+                      border-radius: 0 3px 3px 0;
+                    }
+
+                    /* Position the "next button" to the right */
+                    .next {
+                      right: 0;
+                      border-radius: 3px 0 0 3px;
+                    }
+
+                    /* On hover, add a black background color with a little bit see-through */
+                    .prev:hover, .next:hover {
+                      background-color: rgba(0,0,0,0.8);
+                    }
+
+                    /* Caption text */
+                    .text {
+                      color: #f2f2f2;
+                      font-size: 15px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      bottom: 8px;
+                      width: 100%;
+                      text-align: center;
+                    }
+
+                    /* Number text (1/3 etc) */
+                    .numbertext {
+                      color: #f2f2f2;
+                      font-size: 12px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      top: 0;
+                    }
+
+                    /* The dots/bullets/indicators */
+                    .dot {
+                      cursor: pointer;
+                      height: 15px;
+                      width: 15px;
+                      margin: 0 2px;
+                      background-color: #bbb;
+                      border-radius: 50%;
+                      display: inline-block;
+                      transition: background-color 0.6s ease;
+                    }
+
+                    .active, .dot:hover {
+                      background-color: #717171;
+                    }
+
+                    /* Fading animation */
+                    .fade {
+                      -webkit-animation-name: fade;
+                      -webkit-animation-duration: 1.5s;
+                      animation-name: fade;
+                      animation-duration: 1.5s;
+                    }
+
+                    @-webkit-keyframes fade {
+                      from {opacity: .4} 
+                      to {opacity: 1}
+                    }
+
+                    @keyframes fade {
+                      from {opacity: .4} 
+                      to {opacity: 1}
+            }
+            #pen{
+                    margin-left: 40px;
+            }
+                
+            #Charles{
+                padding-left: 30px; 
+                align-content: center;
+            }
+            .Charles{
+                
+                padding-left: 200px;
+                padding-right 50px: 
+            }
+                        .LN{
+                    background-color: white;
+                font-align: center;
+                border: 2px solid white;
+                border-radius: 5px;
+                margin-left: 40px;
+                margin-right: 40px;
+                }
+            
         </style>
     
     </head>
@@ -305,18 +454,31 @@ span.ONEpsw {
                       <form class="modal-content" action="/action_page.php">
                         <div class="CREATEcontainer">
                           <h1>Sign Up</h1>
-                          <p>Please fill in this form to create an account.</p>
+                            <button class=tutor><a href="tutor.html">Tutor</a></button>
                             <button class=learner>Learner</button>
-                            <button class=tutor>Tutor</button>
+                           
+                             
+                          <p>Please fill in this form to create an account: Learner</p>
+
                           <hr>
-                          <label for="email"><b>Email</b></label>
-                          <input type="text" placeholder="Enter Email" name="email" required>
+                            
+                          <label for="email"><b>Name</b></label>
+                          <input type="text" placeholder="Enter Name: (First, Last)" name="name" >
+                            
+                            <label for="email"><b>Email</b></label>
+                          <input type="text" placeholder="Enter Email" name="email" required >
 
                           <label for="psw"><b>Password</b></label>
                           <input type="password" placeholder="Enter Password" name="psw" required>
 
                           <label for="psw-repeat"><b>Repeat Password</b></label>
                           <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                            
+                            <label for="email"><b>About Me</b></label>
+                          <input type="text" placeholder="Enter infomation about your self" name="About_Me" required>
+                            
+                            <br>
+                            <br>
 
                           <label>
                             <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
@@ -327,6 +489,7 @@ span.ONEpsw {
                           <div class="clearfix">
                             <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
                             <button type="submit" class="signupbtn">Sign Up</button>
+                                
                           </div>
                         </div>
                       </form>
@@ -341,17 +504,18 @@ span.ONEpsw {
                           <form class="ONEmodal-content animate" >
                             <div class="ONEimgcontainer">
                               <span onclick="document.getElementById('eid01').style.display='none'" class="close" title="Close Modal">&times;</span>
-                              <img src="C:/Users/PC8/Desktop/rop.PNG" alt="Avatar" class="ONEavatar">
+                              <img src="https://photos.app.goo.gl/MAM6wWAsGz1C7Zsz8" alt="Avatar" class="ONEavatar">
                             </div>
 
                             <div class="ONEcontainer">
-                              <label for="uname"><b>Username</b></label>
-                              <input type="text" placeholder="Enter Username" name="uname" required>
+                              <label for="uname"><b>Email</b></label>
+                              <input type="text" placeholder="Enter Email" name="uname" required>
 
                               <label for="psw"><b>Password</b></label>
                               <input type="password" placeholder="Enter Password" name="psw" required>
 
-                              <button type="submit">Login</button>
+                              
+                                <br>
                               <label>
                                 <input type="checkbox" checked="checked" name="remember"> Remember me
                               </label>
@@ -359,6 +523,8 @@ span.ONEpsw {
 
                             <div class="ONEcontainer" style="background-color:#f1f1f1">
                               <button type="button" onclick="document.getElementById('eid01').style.display='none'" class="ONEcancelbtn">Cancel</button>
+                                
+                                <button type="submit" class=TWOLogin>Login</button>
                               <span class="ONEpsw">Forgot <a href="#">password?</a></span>
                             </div>
                           </form>
@@ -369,24 +535,106 @@ span.ONEpsw {
         
         
         <br>
-        <br>
-        <br>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="https://images.careers360.mobi/sites/default/files/content_pic_2016_dec/upsee-Syllabus.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="http://blog.noplag.com/wp-content/uploads/2017/03/Tutors-and-Parents.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                    <div id=pen>
+                        <img src="https://img.clipartxtras.com/c1d2933d515539d768521cf6aedcb181_pencil-and-paper-clip-art-savoronmorehead-pencil-writing-on-paper-clipart_3336-3857.png" style="width:50%" >
+                    </div>
+                  
+                  <div class="text"></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                
+                <br>
+
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
         
         
         <nav>
             <div class=goal> 
                 
-                <h1>Goal:</h1>
-                
-                    <p> Our mission is to enhance the learning for students, and the teaching strategies for tutors. Istudy includes 3-easy-to-use services : a state syllabus, a platform for contacting tutors, and a universal free note sharing system! The platform is very easy to use; fast and efficient! The services we provide allow easy accessibility and user-friendly interfaces to enhance the maximum capability of what the service can do! We to bring easyweb-services to the education system, so we can help advance all types of students and teachers! </p>
-                
+                <h1 class=misson> <u> Goal: </u></h1>
+                <br>
+               
+                    <p class=misson class=missons> &emsp; &emsp; Our mission is to enhance the learning for students, and the teaching strategies for tutors. Istudy includes 3-easy-to-use services: a state syllabus, a platform for contacting tutors, and a universal free note sharing system! The platform is very easy to use; fast and efficient! The services we provide allow easy accessibility and user-friendly interfaces to enhance the maximum capability of what the service can do! We to bring easyweb-services to the education system, so we can help  advance all types of students and teachers! </p>
+                <br>
             </div>
+<br>
+            <br>
+            
+            <div class=aboutUs> 
+                
+                <h1 class=misson > <u> About Us: </u></h1>
+                <br>
+                <br>
+                        
+                       
+                
+                  <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Mickey_Mouse.png/220px-Mickey_Mouse.png" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is Charles Koduru, I am 15 years old, and I am a rising junior at Alpharetta High School planning to go to Georgia Tech when I graduate! Some of my hobbies are: playing cricket and soccer, building robots and teaching fundamentals of robotics to others, and lastly running and biking! </p>
+                
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Mickey_Mouse.png/220px-Mickey_Mouse.png" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is James Bunting, I am a rising senior at Tucker High school and plan on attending Georgia Tech for college. I pursue robotics, music and teaching within my community. I hope to build my town’s technological literacy in the upcoming year.
+ </p>
+                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Mickey_Mouse.png/220px-Mickey_Mouse.png" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is Anisa Monroe I am 15 years old, and I am a rising sophomore at Westlake high school planning to go to Spelman College when I graduate. One thing I like to do in my free time is play softball and football.  
+ </p>
+                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Mickey_Mouse.png/220px-Mickey_Mouse.png" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is faiz.
+ </p>
+                                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Mickey_Mouse.png/220px-Mickey_Mouse.png" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is mia.
+ </p>
+                 <br>
+            </div>
+            <br>
+            <br>
+            
+            <div class=LN>
+                <h1 class=misson > <u> Lexis Nexis: </u></h1>
+                <br>
+                <p class=misson class=missons > &emsp; &emsp;LexisNexis® Risk Solutions provides customers with solutions and decision tools that combine public and industry speciﬁc content with advanced technology and analytics to assist them in evaluating and predicting risk and enhancing operational efﬁciency.
+                    We use the power of data and advanced analytics to help our customers make better, timelier decisions. Our innovative solutions enable organizations to manage risks like identity theft, fraud, money laundering and terrorism, and prevent ﬁnancial crimes, and insurance and government beneﬁt scams. We help those without traditional credit histories obtain access to funds, assist agencies to ﬁnd uncollected revenue, and research ways to improve business outcomes for healthcare companies. We also work with law enforcement to solve crimes.
+                    By bringing clarity to information, we ultimately help make communities safer, insurance rates more accurate, commerce more transparent, business decisions easier and processes more efﬁcient.
 
+                </p>
+                <br>
+            </div>
         </nav>
         
-        
-        
+    
         <footer>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            <br>
+            
+            <br>
             
         </footer>
 
@@ -406,6 +654,33 @@ span.ONEpsw {
                        modal.style.display = "none";
                        }
                     }
+                    var slideIndex = 1;
+                        showSlides(slideIndex);
+
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                        }
+
+                        function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                        }
+
+                        function showSlides(n) {
+                          var i;
+                          var slides = document.getElementsByClassName("mySlides");
+                          var dots = document.getElementsByClassName("dot");
+                          if (n > slides.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = slides.length}
+                          for (i = 0; i < slides.length; i++) {
+                              slides[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                              dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                    }
             </script>
     </body>
 </html>
+
