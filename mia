@@ -1,0 +1,159 @@
+<html>
+<head>
+    <style>
+        h1{
+          text-decoration: underline;
+            font-family: serif
+        }
+        #martha{
+            height: 200px;
+        }
+        .about-martha{
+            margin-right: 25px;
+            margin-left: 20px;
+            margin-top: 25px;
+        }
+        #rayj{
+          height:200px;
+        }
+        #kevins{
+          height: 200px;
+        }
+        #julias{
+          height: 200px;
+        }
+        #stevew{
+          height: 200px;
+        }
+        #royc{
+          height:200px;
+        }
+        #alishah{
+          height:200px;
+        }
+        #ryanb{
+          height: 200px;
+        }
+        #marcusw{
+          height: 200px;
+        }
+        #briannag{
+          height: 200px;
+        }
+        #rachelah{
+          height: 200px;
+        }
+        .ray{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .kevin{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .julia{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .steve{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .ryan{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .marcus{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .roy{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .alisha{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .brianna{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        .rachela{
+          margin-right: 25px;
+          margin-left: 20px;
+          margin-top: 25px;
+        }
+        body{
+          background-color: orange;
+        }
+    </style>
+</head>
+<body>
+    <h1> ABOUT ME</h1>
+     <img src="http://robtrendiak.com/files/uploads/2016/04/vancouver_headshot_rob_trendiak-0791.jpg" id="martha" class="about-martha">
+    <div class="about-martha">
+      <p> My name is Martha Catherine. I am a 21 year old fresh out of college hoping to use my bachelor’s degree in Applied Physics from Georgia Tech to tutor high school kids in Physics. In college, I would study with roommates or friends and found myself explaining topics to them that I picked up pretty quick. So although I don’t have professional experience, I find that teaching my college friends was preparation for this since high school and college students are very close in age. Because Physics came so easy to me, of course it’d be my favorite subject. I can be reached by phone at 485-972-0118, but my email address mlcatherine@gmail.com is preferred.</p>
+    </div>
+  <div class="ray">
+      <img src="https://media.istockphoto.com/photos/portrait-of-a-young-man-smiling-picture-id622041042?k=6&m=622041042&s=612x612&w=0&h=ecWgKps8ulm9SdRtPSCNW6OisulYFT0bGWfNnXCP9ss=" id="rayj">
+    <p> My name is Ray Johnson and I am a 20 year old currently attending University of Georgia. I’m looking to tutor high school students while I’m in college. I tutored kids last year and it worked out pretty well. Juggling school work and this proved difficult at first, but over time it got easier. You can contact me at 674-322-9651 and rayj15@gmail.com. </p>
+  </div>
+  <div class="kevin">
+    <img src="https://www.theblvdcompany.com/wp-content/uploads/2018/04/Dan-Lorentz-headshot-2016-wpcf_300x287.jpg" id="kevins">
+    <p> My name is Kevin Simpson. I am 35 years old. I attended Auburn and got a degree in Chemical Engineering so I am very knowledgeable when it comes to the sciences. I have no experience in teaching/ tutoring, but my previous job was as an engineer at a small company. My email is kevinsimp@gmail.com and my phone # is 386-098-7462. </p>
+  </div>
+  <div class="julia">
+    <img src="https://31csme3pssfltgd81lo7eu19-wpengine.netdna-ssl.com/wp-content/uploads/2015/09/1_Victoria-Jordan_Chris-Gillett-Houston-Headshot-Photographer.jpg" id="julias">
+  <p> My name is Julia. I am 29 years old. Currently I work as a computer scientist at State Farm, but am interested in pursuing a more teaching side so tutoring provides the perfect opportunity.  I have a degree in Computer Science from USC, but I’m very good at all science subjects. I can be contacted at 467-282-9271 or juliastiles@gmail.com. </p>
+</div>
+<div class="steve">
+  <img src="https://www.breathingcenter.com/images/Paul_Hixson_sm.jpg" id="stevew">
+  <p> My name is Steve Williams. I am 58 years old looking for a part time job in tutoring high school kids. I previously worked as a science teacher, having taught Biology, Chemistry and Physics while I worked at a high school. I graduated from UC Berkeley with a degree in Biology so that is my forte. My favorite subject is Biology of course. If you are interested in hiring me as a tutor, you can contact me by phone at 393-546-3984 or by email, Stevewilliams@gmail.com. </p>
+</div>
+<div class="alisha">
+  <img src="https://www.alternet.org/sites/default/files/styles/story_image/public/story_images/black_business_woman.jpg?itok=HpbdKocr" id="alishah">
+  <p> Hi, my name is Alisha Scott-Harris and I am 54 years old looking for a part time job tutoring high school kids. I taught high school Chemistry, Biology, Physics, and Environmental Science for 15 years. I graduate from Spelman College, and I have a degree in Biology. My favorite subject in high school was surprisingly math. I kind of gravitated towards science because in 9th grade we dissected frogs and i thought that was so interesting. If you would like to hire me as your child tutor you can contact me by phone or email. My information will be down below.
+ Email: Alishascott@gmail.com
+Phone: 804-365-9875 </p>
+</div>
+<div class="ryan">
+  <img src="http://www.greaterunderstanding.net/wp-content/uploads/2013/12/21_YEAR_OLD_BLACK_MALE_POLITICIAN_MISSISSIPPI-SMALL.jpg" id="ryanb">
+  <p> Hi, my name is Ryan and I am 22 years old just graduating from Clark and getting my degree in Life Sciences. I an looking for a full time job being a high school students tutor. My favorite subject in high school was always science. I thought it was so interesting and that in the subject I could never stop learning anything. I started to tutor actually in high school when I was in 12th grade. I can help in all stages of science. You can contact me by phone or email whichever you prefer if you are interested in hiring me. My information will be down below.
+ Email: Ryanb@yahoo.com
+Phone: 804-987-321 </p>
+</div>
+<div class="marcus">
+  <img src="https://s3-media2.fl.yelpcdn.com/bphoto/4SkqdpTNuwAhu3JM4Ge1ew/ls.jpg" id="marcusw">
+  <p> Hello, my name is Marcus and I am interested in being a tutor for a highschool student needing held in the field of science. I am 64 years old and I have been a high school tutor for 20 years. My favorite subject in school was actually literature, but I went to school to get a degree in Biology. I have always had a love for science. I would love to help young students love it too. If you are interested to hire me to tutor your child please contact me by phone or email. I will put my information down below.
+Email: marcusw@gmail.com
+Phone: 804-536-5348</p>
+</div>
+<div class="roy">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQIX2p2xV6FAFtSuO4_cH-pq3Jn-B372yurhmsRPU2CLRX3r73Xg" id="royc">
+  <p> Hello, my name is Roy Cole. I am 21 years old and I just graduated from Morehouse College with a degree in Life science. I don’t really have a lot of experience in tutoring, but I have helped highschool students because it has not been that long ago since I graduated high school. My favorite subject in high school wasatually history, but the longer I was in science I kind of graduated toward it a little more. I would be thrilled to tutor your child because I remember in high school I needed a lot of help but I never got it, and now want to help other people. I would like a part time job though. If you interested you can call me, my number will be down below
+	phone : 804-475-1548  </p>
+</div>
+<div class="brianna">
+  <img src="http://thinkinkpr.com/wp-content/uploads/2012/10/happy-smiling-hispanic-woman.jpg" id="briannag">
+  <p> My name is Brianna Gates and I am 30 years old looking for a part time job being a high school students tutor. I do enjoy kids and I understand the struggles of science because a one point of time I needed a tutor too. I graduated from Howard University. I now a have a degree in Biology so thats my strongest spot in science. My favorite subject in high school was actually art. I would love to tutor you child I understand the struggle of not understanding science because it not a easy subject. If you interested my you can call my or email me my information will be down below.
+Email: bgates@icloud.com
+Phone: 804-531-5316 </p>
+</div>
+<div class="rachela">
+  <img src="https://s-s.huffpost.com/contributors/michelle-martin/headshot.jpg" id="rachelah">
+  <p>Hello, my name is Rachela Henderson and I am 53 years old. I was actually born and raised in Richmond Virginia. I am a alumni at Virginia Commonwealth University and I have a degree in Biology.  My favorite class in high school was band, I love music. Actually music gravitated me to science. I will be very excited if you interested in hiring me as your child’s tutor. My contact information will be down below.
+    Email: rachelahenderson@gmail.com
+    	Phone: 804-963-8527 </p>
+</div>
+</body>
+</html>
