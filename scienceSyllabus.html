@@ -1,9 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+    body{
+        background-color: orange;
+    }
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -55,19 +59,19 @@ a:hover {
 }
 
 .previous {
-    background-color: #f1f1f1;
-    color: black;
     position: absolute;
-    top: 650px;
-    
+    left:6s0px;
+    top:600px;
+
+   
 }
 
 .next {
-    background-color: #4CAF50;
-    color: white;
+    
+    
     position: absolute;
-    top: 650px;
-    left: 950px;
+    top: 550px;
+    right: 80px;
 }
 
 .round {
@@ -85,6 +89,22 @@ a:hover {
 .content {
   padding: 16px;
 }
+        .profile{
+        position: absolute;                
+                right: 100px;
+                top: 30px;
+
+
+    }
+    
+    .goddy{
+        font-family:inherit;
+        color:white;
+        width: 200px;
+         position: absolute;
+        left:40px;
+        top:100px;
+    }
 
 /* The sticky class is added to the header with JS when it reaches its scroll position */
 .sticky {
@@ -138,10 +158,19 @@ a:hover {
     .dropdown4 {
     position: absolute;
     top: 255px;
+        width: 400px;
+        
     left:770px;
     display: inline-block;
 }
 
+    .header {
+                border: 5px solid white;
+                background-color: white;
+                
+                height:150px;
+            
+            } 
 .dropdown-content {
     display: none;
     position: absolute;
@@ -151,6 +180,13 @@ a:hover {
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+    .halo{
+        background-color: white;
+        position:absolute;
+        left:200px;
+        top:50px;
+
+    }
 
 .dropdown-content a {
     color: black;
@@ -169,15 +205,21 @@ a:hover {
     
 <body>
     <header>
-        <div class="header" id="myHeader">
-  <strong><h2>I-Study</h2></strong>
-    <h3>United States</h3>
-    </div>
+        <div class=header>
+    <a href="istudy.html">
+                <img src="https://lh3.googleusercontent.com/_2cAeuXpC6neaxf67i_VPVasHp1TF6b673BChkMFaOUdB731gwHrTBGwNWq013V1cACh_Q=s170" height=120px width=500px/>
+    </a>
+            </div>
+        <div class=profile>
+            <img src="https://iiuc.ac.bd/assets/images/profile-pic-blank.png" height=120px width=120px/>
+        </div>
     </header>
     
-    <nav>
-        <p>Select your State.</p>
-
+    <div class=goddy>
+        <p>Select your State</p>
+    </div>
+    <div class=halo>
+    
 <div class="dropdown" style="float:left;">
   <button class="dropbtn">Science</button>
   <div class="dropdown-content" style="left:0;">
@@ -215,13 +257,11 @@ a:hover {
     <a href="#">PA</a>
   </div>
 </div>  
+    </div>
     
-    </nav>
     
     
-<section>
-    
-</section>
+
 <br>
 <br>
 <br>
@@ -251,6 +291,12 @@ a:hover {
     <br>
 <br>
     
+    <a href="NEWTutorsNotesPage.html" class=previous> 
+        <img src="http://www.iconarchive.com/download/i95431/iconsmind/outline/Arrow-Back-3.ico" style="width:60px;height:60px;" > 
+    </a>
+        <a href="#" class="next"> </a>
+    
+
 <footer>
     <div align = center >
             <a href="#" class="fa fa-google"></a>
@@ -265,6 +311,7 @@ a:hover {
                                                                                                                                     
 </footer>
 
+                                                                                                                                          
     
 <script>
 window.onscroll = function() {myFunction()};
@@ -281,8 +328,7 @@ function myFunction() {
 }
 </script>
     
-<a href="#" class="previous">&laquo; Previous</a>
-<a href="#" class="next">Next &raquo;</a>
+
     
   
 

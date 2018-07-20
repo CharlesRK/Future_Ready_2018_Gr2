@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{
+        background-color: orange;
+    }
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: absolute;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin: 0;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+    
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+}
+
+a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.previous {
+    position: absolute;
+    left:60px;
+    top:600px;
+
+   
+}
+
+.next {
+    
+    
+    position: absolute;
+    top: 550px;
+    right: 80px;
+}
+
+.round {
+    border-radius: 50%;
+}
+    /* Style the header */
+.header {
+  padding: 10px 16px;
+  background: #555;
+  color: #f1f1f1;
+    text-decoration: none;
+}
+
+/* Page content */
+.content {
+  padding: 16px;
+}
+        .profile{
+        position: absolute;                
+                right: 100px;
+                top: 30px;
+
+
+    }
+    
+    .goddy{
+        font-family:inherit;
+        color:white;
+        width: 200px;
+         position: absolute;
+        left:40px;
+        top:100px;
+    }
+
+/* The sticky class is added to the header with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 25px;
+  width: 100%
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 102px;
+}
+    h3{
+        float: right;
+        position: absolute;
+        top: 0px;
+        left: 900px;
+        color: silver;
+    }
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 20px;
+    border: none;
+}
+    p{
+        position: absolute;
+        top: 100px;
+        font-size: 20px;
+    }
+
+.dropdown {
+    width:200px;
+    position: absolute;
+    top: 255px;
+    left:170px;
+    display: inline-block;
+}
+.dropdown2 {
+    position: absolute;
+    top: 255px;
+    left:410px;
+    display: inline-block;
+}
+    .dropdown3 {
+    position: absolute;
+    top: 255px;
+    left:570px;
+    display: inline-block;
+}
+    .dropdown4 {
+    position: absolute;
+    top: 255px;
+        width: 400px;
+        
+    left:770px;
+    display: inline-block;
+}
+
+    .header {
+                border: 5px solid white;
+                background-color: white;
+                
+                height:150px;
+            
+            } 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    left:  0;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+    .halo{
+        background-color: white;
+        position:absolute;
+        left:450px;
+        top:50px;
+
+    }
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+    
+<body>
+    <header>
+        <div class=header>
+    <a href="istudy.html">
+                <img src="https://lh3.googleusercontent.com/_2cAeuXpC6neaxf67i_VPVasHp1TF6b673BChkMFaOUdB731gwHrTBGwNWq013V1cACh_Q=s170" height=120px width=500px/>
+    </a>
+            </div>
+        <div class=profile>
+            <img src="https://iiuc.ac.bd/assets/images/profile-pic-blank.png" height=120px width=120px/>
+        </div>
+    </header>
+    
+    <div class=goddy>
+        <p>Select your Subject</p>
+    </div>
+    <div class=halo>
+    
+<div class="dropdown" style="float:left;">
+  <button class="dropbtn">Social Studies</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="notes.html">GA</a>
+    <a href="notes.html">TX</a>
+    <a href="notes.html">VA</a>
+    <a href="notes.html">PA</a>
+  </div>
+</div>
+        
+<div class="dropdown2" style="float:left;">
+  <button class="dropbtn">Math</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">GA</a>
+    <a href="#">TX</a>
+    <a href="#">VA</a>
+    <a href="#">PA</a>
+  </div>
+</div>
+<div class="dropdown3" style="float:left;">
+  <button class="dropbtn">Reading</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="#">GA</a>
+    <a href="#">TX</a>
+    <a href="#">VA</a>
+    <a href="#">PA</a>
+  </div>
+</div>  
+<div class="dropdown4" style="float:left;">
+  <button class="dropbtn">Science</button>
+  <div class="dropdown-content" style="left:0;">
+    <a href="https://www.w3schools.com/html/tryit.asp?filename=tryhtml_images_trulli">GA</a>
+    <a href="#">TX</a>
+    <a href="#">VA</a>
+    <a href="#">PA</a>
+  </div>
+</div>  
+    </div>
+    
+    
+    
+
+<br>
+<br>
+<br>
+    <br>
+<br>
+<br>
+    <br>
+<br>
+<br>
+    <br>
+<br>
+<br>
+    <br>
+<br>
+<br>
+    <br>
+<br>
+<br>
+    <br>
+<br>
+<br>
+    <br>
+<br>
+<br>
+    <br>
+<br>
+    <br>
+<br>
+    
+    <a href="NEWTutorsNotesPage.html" class=previous> 
+        <img src="http://www.iconarchive.com/download/i95431/iconsmind/outline/Arrow-Back-3.ico" style="width:60px;height:60px;" > 
+    </a>
+        <a href="#" class="next"> </a>
+    
+
+<footer>
+    <div align = center >
+            <a href="#" class="fa fa-google"></a>
+    <a href="#" class="fa fa-linkedin"></a> 
+    <a href="#" class="fa fa-youtube"></a>
+    <a href="#" class="fa fa-instagram"></a>
+    </div>
+    
+<div align = center >
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLScVAbjhoJbhaTbC0B11co080gS__RhB6B1_9TPHiO24604n9Q/viewform?c=0&w=1"" target="_blank">Please Fill Out This Servey And Help Us Improve Our Site</a> 
+</div>
+                                                                                                                                    
+</footer>
+
+                                                                                                                                          
+    
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+    
+
+    
+  
+
+</body>
+</html>
