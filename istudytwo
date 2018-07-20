@@ -1,0 +1,736 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+            .fa {
+  padding: 20px;
+  font-size: 20px;
+  width: 60px;
+  text-align: absolute;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin: 0;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+    
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+            body{
+                background-color: orange;
+            }
+        
+
+            .header {
+                border: 2px solid white;
+                background-color: white;
+                
+                height:150px;
+            
+            }   
+                body {font-family: Arial, Helvetica, sans-serif;}
+                    * {box-sizing: border-box}
+                    /* Full-width input fields */
+                    input[type=text], input[type=password] {
+                        width: 100%;
+                        padding: 15px;
+                        margin: 5px 0 22px 0;
+                        display: inline-block;
+                        border: none;
+                        background: #f1f1f1;
+                    }
+
+                        .SignUp{
+                            height: 50px;
+                        }
+                    /* Add a background color when the inputs get focus */
+                    input[type=text]:focus, input[type=password]:focus {
+                        background-color: #ddd;
+                        outline: none;
+                    }
+
+                    /* Set a style for all buttons */
+                    button {
+                        background-color:orange;
+                        color: white;
+                        padding: 14px 20px;
+                        margin: 8px 0;
+                        border: 5px;
+                        cursor: pointer;
+                        width: 50%;
+                        opacity: 0.9;
+                    }
+
+                    button:hover {
+                        opacity:.5;oi
+                    }
+
+                    /* Extra styles for the cancel button */
+                    .cancelbtn {
+                        padding: 14px 20px;
+                        background-color: #f44336;
+                    }
+
+                    /* Float cancel and signup buttons and add an equal width */
+                    .cancelbtn, .signupbtn {
+                      float: left;
+                      width: 50%;
+                    }
+
+                    /* Add padding to container elements */
+                    .CREATEcontainer {
+                        padding: 16px;
+                    }
+
+                    /* The Modal (background) */
+                    .modal {
+                        display: none; /* Hidden by default */
+                        position: fixed; /* Stay in place */
+                        z-index: 1; /* Sit on top */
+                        left: 0;
+                        top: 0;
+                        width: 100%; /* Full width */
+                        height: 100%; /* Full height */
+                        overflow: auto; /* Enable scroll if needed */
+                        background-color: #474e5d;
+                        padding-top: 50px;
+                    }
+
+                    /* Modal Content/Box */
+                    .modal-content {
+                        background-color: #fefefe;
+                        margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+                        border: 1px solid #888;
+                        width: 80%; /* Could be more or less, depending on screen size */
+                    }
+
+                    /* Style the horizontal ruler */
+                    hr {
+                        border: 1px solid #f1f1f1;
+                        margin-bottom: 25px;
+                    }
+
+                    /* The Close Button (x) */
+                    .close {
+                        position: absolute;
+                        right: 35px;
+                        top: 15px;
+                        font-size: 40px;
+                        font-weight: bold;
+                        color: #f1f1f1;
+                    }
+
+                    .close:hover,
+                    .close:focus {
+                        color: #f44336;
+                        cursor: pointer;
+                    }
+
+                    /* Clear floats */
+                    .clearfix::after {
+                        content: "";
+                        clear: both;
+                        display: table;
+                    }
+
+                    /* Change styles for cancel button and signup button on extra small screens */
+                    @media screen and (max-width: 300px) {
+                        .cancelbtn, .signupbtn {
+                           width: 100%;
+                        }
+                     
+                        .signupbtn {
+                            background-color:green;
+                        }
+
+            }
+            .learner{
+      
+                height: 40px;
+                width: 100px;
+                position: absolute;
+                right: 200px;
+                top: 150px;
+                background-color: green;
+            }
+            .tutor{
+                height: 40px;
+                width: 100px;
+                position: absolute;
+                right: 400px;
+                top: 150px;
+                background-color: green;
+
+            }
+            
+                .SignUp{
+                position: absolute;
+                right: 350px;
+                top: 50px;
+  
+                
+            }
+        body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+            .Login{
+                height:50px;
+            }
+
+/* Set a style for all buttons */
+ONEbutton {
+    background-color: orange;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+ONEbutton:hover {
+    opacity: 0.8;
+}
+
+/* Extra styles for the cancel button */
+.ONEcancelbtn {
+    width: 300px;
+    height: 50px;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+            .TWOLogin{
+                width: 300px;
+                height: 50px;
+                background-color:green;
+            }
+
+/* Center the image and position the close button */
+.ONEimgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+}
+
+img.ONEavatar {
+    height: 100px;
+    width: 80px;
+
+}
+
+.ONEcontainer {
+    padding: 16px;
+}
+
+span.ONEpsw {
+    float: right;
+    padding-top: 16px;
+}
+
+/* The Modal (background) */
+.ONEmodal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.ONEmodal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.ONEanimate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+}
+    
+@keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+    span.ONEpsw {
+       display: block;
+       float: none;
+    }
+    .ONEcancelbtn {
+       width: 100%;
+    }
+}
+                            .Login{
+                position: absolute;
+                right: 200px;
+                top: 50px;
+  
+                
+            }
+            
+            .goal{
+                background-color: white;
+                font-align: center;
+                border: 2px solid white;
+                border-radius: 5px;
+                margin-left: 40px;
+                margin-right: 40px;
+            }
+            .misson{
+                    margin-top: 10px;
+                    margin-bottom: 5px;
+                    margin-right: 30px;
+                    margin-left: 30px;
+                    color: darkorange ;
+            }
+            .missons{
+                font-size: 18;
+                word-spacing: 10px; 
+                }
+            .aboutUs{
+                    background-color: white;
+                font-align: center;
+                border: 2px solid white;
+                border-radius: 5px;
+                margin-left: 40px;
+                margin-right: 40px;
+                }
+            * {box-sizing: border-box}
+                    body {font-family: Verdana, sans-serif; margin:0}
+                    .mySlides {display: none}
+                    img {vertical-align: middle;}
+
+                    /* Slideshow container */
+                    .slideshow-container {
+                      width: 700px;
+                        height: 500px;
+                      position: relative;
+                      margin: auto;
+                    }
+
+                    /* Next & previous buttons */
+                    .prev, .next {
+                      cursor: pointer;
+                      position: absolute;
+                      top: 50%;
+                      width: auto;
+                      padding: 16px;
+                      margin-top: -22px;
+                      color: white;
+                      font-weight: bold;
+                      font-size: 18px;
+                      transition: 0.6s ease;
+                      border-radius: 0 3px 3px 0;
+                    }
+
+                    /* Position the "next button" to the right */
+                    .next {
+                      right: 0;
+                      border-radius: 3px 0 0 3px;
+                    }
+
+                    /* On hover, add a black background color with a little bit see-through */
+                    .prev:hover, .next:hover {
+                      background-color: rgba(0,0,0,0.8);
+                    }
+
+                    /* Caption text */
+                    .text {
+                      color: #f2f2f2;
+                      font-size: 15px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      bottom: 8px;
+                      width: 100%;
+                      text-align: center;
+                    }
+
+                    /* Number text (1/3 etc) */
+                    .numbertext {
+                      color: #f2f2f2;
+                      font-size: 12px;
+                      padding: 8px 12px;
+                      position: absolute;
+                      top: 0;
+                    }
+
+                    /* The dots/bullets/indicators */
+                    .dot {
+                      cursor: pointer;
+                      height: 15px;
+                      width: 15px;
+                      margin: 0 2px;
+                      background-color: #bbb;
+                      border-radius: 50%;
+                      display: inline-block;
+                      transition: background-color 0.6s ease;
+                    }
+
+                    .active, .dot:hover {
+                      background-color: #717171;
+                    }
+
+                    /* Fading animation */
+                    .fade {
+                      -webkit-animation-name: fade;
+                      -webkit-animation-duration: 1.5s;
+                      animation-name: fade;
+                      animation-duration: 1.5s;
+                    }
+
+                    @-webkit-keyframes fade {
+                      from {opacity: .4} 
+                      to {opacity: 1}
+                    }
+
+                    @keyframes fade {
+                      from {opacity: .4} 
+                      to {opacity: 1}
+            }
+            #pen{
+                    margin-left: 40px;
+            }
+                
+            #Charles{
+                height: 200px;
+                width: 250px;
+                padding-left: 30px; 
+                align-content: center;
+            }
+            .Charles{
+                
+                padding-left: 200px;
+                padding-right 50px: 
+            }
+                        .LN{
+                    background-color: white;
+                font-align: center;
+                border: 2px solid white;
+                border-radius: 5px;
+                margin-left: 40px;
+                margin-right: 40px;
+                }
+            
+                .footer {
+position: absolute;
+        top:2700px;
+        left: 500px;
+                    margin-bottom: 40px;
+    }
+            
+        </style>
+    
+    </head>
+    <body>
+        
+        
+        
+        <header>
+            <div class=header>
+                <img src="https://lh3.googleusercontent.com/_2cAeuXpC6neaxf67i_VPVasHp1TF6b673BChkMFaOUdB731gwHrTBGwNWq013V1cACh_Q=s170" height=150px width=500px/>
+            </div>
+            <div class=Sign>
+                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class=SignUp>Sign Up</button>
+
+                    <div id="id01" class="modal">
+                      <span onclick="document.geElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <form class="modal-content" action="/action_page.php">
+                        <div class="CREATEcontainer">
+                          <h1>Sign Up</h1>
+                            <button class=tutor><a href="tutor.html">Tutor</a></button>
+                            <button class=learner>Learner</button>
+                           
+                             
+                          <p>Please fill in this form to create an account: Learner</p>
+
+                          <hr>
+                            
+                          <label for="email"><b>Name</b></label>
+                          <input type="text" placeholder="Enter Name: (First, Last)" name="name" >
+                            
+                            <label for="email"><b>Email</b></label>
+                          <input type="text" placeholder="Enter Email" name="email" required >
+
+                          <label for="psw"><b>Password</b></label>
+                          <input type="password" placeholder="Enter Password" name="psw" required>
+
+                          <label for="psw-repeat"><b>Repeat Password</b></label>
+                          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+                            
+                            <label for="email"><b>About Me</b></label>
+                          <input type="text" placeholder="Enter infomation about your self" name="About_Me" required>
+                            
+                            <br>
+                            <br>
+
+                          <label>
+                            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+                          </label>
+
+                          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                          <div class="clearfix">
+                            <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                            <button type="submit" class="signupbtn"><a href="NEWTutorsNotesPage.html">Sign Up</a></button>
+                                
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+
+
+            </div>
+                <button onclick="document.getElementById('eid01').style.display='block'" style="width:auto;" class=Login>Login</button>
+
+                        <div id="eid01" class="ONEmodal">
+
+                          <form class="ONEmodal-content animate" >
+                            <div class="ONEimgcontainer">
+                              <span onclick="document.getElementById('eid01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                              <img src="https://lh3.googleusercontent.com/oUnviXMKoWshkrXOnnjDeAqnBr3luGAydiIN6VsY7Z8yIKerOX-5hxs4-qJniWjLKVUHMA=s133" alt="Avatar" class="ONEavatar">
+                            </div>
+
+                            <div class="ONEcontainer">
+                              <label for="uname"><b>Email</b></label>
+                              <input type="text" placeholder="Enter Email" name="uname" required>
+
+                              <label for="psw"><b>Password</b></label>
+                              <input type="password" placeholder="Enter Password" name="psw" required>
+
+                              
+                                <br>
+                              <label>
+                                <input type="checkbox" checked="checked" name="remember"> Remember me
+                              </label>
+                            </div>
+
+                            <div class="ONEcontainer" style="background-color:#f1f1f1">
+                              <button type="button" onclick="document.getElementById('eid01').style.display='none'" class="ONEcancelbtn">Cancel</button>
+                                
+                                <button type="submit" class=TWOLogin><a href="NEWTutorsNotesPage.html">Login</a></button>
+                              <span class="ONEpsw">Forgot <a href="#">password?</a></span>
+                            </div>
+                          </form>
+                        </div>   
+            
+            
+        </header>
+        
+        
+        
+        
+        <br>
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <div class="numbertext">1 / 3</div>
+                  <img src="https://images.careers360.mobi/sites/default/files/content_pic_2016_dec/upsee-Syllabus.jpg" style="width:100%">
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">2 / 3</div>
+                  <img src="http://blog.noplag.com/wp-content/uploads/2017/03/Tutors-and-Parents.png" style="width:100%">
+                  <div class="text"></div>
+                </div>
+
+                <div class="mySlides fade">
+                  <div class="numbertext">3 / 3</div>
+                    <div id=pen>
+                        <img src="https://img.clipartxtras.com/c1d2933d515539d768521cf6aedcb181_pencil-and-paper-clip-art-savoronmorehead-pencil-writing-on-paper-clipart_3336-3857.png" style="width:50%" >
+                    </div>
+                  
+                  <div class="text"></div>
+                </div>
+
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                
+                <br>
+
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+        
+        
+        <nav>
+            <div class=goal> 
+                
+                <h1 class=misson> <u> Goal: </u></h1>
+                <br>
+               
+                    <p class=misson class=missons> &emsp; &emsp; Our mission is to enhance the learning for students, and the teaching strategies for tutors. Istudy includes 3-easy-to-use services: a state syllabus, a platform for contacting tutors, and a universal free note sharing system! The platform is very easy to use; fast and efficient! The services we provide allow easy accessibility and user-friendly interfaces to enhance the maximum capability of what the service can do! We to bring easyweb-services to the education system, so we can help  advance all types of students and teachers! </p>
+                <br>
+            </div>
+<br>
+            <br>
+            
+            <div class=aboutUs> 
+                
+                <h1 class=misson > <u> About Us: </u></h1>
+                <br>
+                <br>
+                        
+                       
+                
+                  <img src="https://pathbrite-content.s3.amazonaws.com/Pdi4Q/snapshots-3/Pdi4Q.original.jpg?1532011293" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is Charles Koduru, I am 15 years old, and I am a rising junior at Alpharetta High School planning to go to Georgia Tech when I graduate! Some of my hobbies are: playing cricket and soccer, building robots and teaching fundamentals of robotics to others, and lastly running and biking! </p>
+                
+                <img src="https://pathbrite-content.s3.amazonaws.com/P654Q/snapshots-4/P654Q.original.jpg?1532011945" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is James Bunting, I am a rising senior at Tucker High school and plan on attending Georgia Tech for college. I pursue robotics, music and teaching within my community. I hope to build my town’s technological literacy in the upcoming year.
+ </p>
+                                <img src="https://pathbrite-content.s3.amazonaws.com/PTR3Q/snapshots-4/PTR3Q.original.jpg?1532021855" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is Anisa Monroe I am 15 years old, and I am a rising sophomore at Westlake high school planning to go to Spelman College when I graduate. One thing I like to do in my free time is play softball and football.  
+ </p>
+                                <img src="https://pathbrite-content.s3.amazonaws.com/Pb54Q/snapshots-4/Pb54Q.original.jpg?1532011719" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is Faiz Bhimji, I am a rising junior at Brookwood High School and I plan on going to the University of California, Berkeley for college. Some of my hobbies are, playing basketball, running track, playing football, and helping in my community.
+ </p>
+                                <img src="https://pathbrite-content.s3.amazonaws.com/PHi4Q/snapshots-3/PHi4Q.original.jpg?1532012178" id=Charles>
+                    <p class=Charles class=misson > &emsp; &emsp; My name is Mia Gant. I am 16 years old and a rising junior at Chandler Charter High School. I run track for my school and play in the orchestra along with other clubs. I like to film, listen to music and watch movies..
+ </p>
+                 <br>
+            </div>
+            <br>
+            <br>
+            
+            <div class=LN>
+                <h1 class=misson > <u> Lexis Nexis: </u></h1>
+                <br>
+                <p class=misson class=missons > &emsp; &emsp;LexisNexis® Risk Solutions provides customers with solutions and decision tools that combine public and industry speciﬁc content with advanced technology and analytics to assist them in evaluating and predicting risk and enhancing operational efﬁciency.
+                    We use the power of data and advanced analytics to help our customers make better, timelier decisions. Our innovative solutions enable organizations to manage risks like identity theft, fraud, money laundering and terrorism, and prevent ﬁnancial crimes, and insurance and government beneﬁt scams. We help those without traditional credit histories obtain access to funds, assist agencies to ﬁnd uncollected revenue, and research ways to improve business outcomes for healthcare companies. We also work with law enforcement to solve crimes.
+                    By bringing clarity to information, we ultimately help make communities safer, insurance rates more accurate, commerce more transparent, business decisions easier and processes more efﬁcient.
+
+                </p>
+                <br>
+            </div>
+        </nav>
+        
+    
+      <div class="footer" align = center >
+        
+        <div align=center>
+                        <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a> 
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+
+        <br>
+          
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLScVAbjhoJbhaTbC0B11co080gS__RhB6B1_9TPHiO24604n9Q/viewform?c=0&w=1" target="_blank"> Please Fill Out This Survey And Help Us Improve Our Site</a> 
+
+    </div>
+
+            <script>
+                // Get the modal
+                    var modal = document.getElementById('id01');
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                     if (event.target == modal) {
+                       modal.style.display = "none";
+                       }
+                    }
+                    var modal = document.getElementById('eid01');
+                    // When the user clicks anywhere outside of the modal, close it
+                    window.onclick = function(event) {
+                     if (event.target == modal) {
+                       modal.style.display = "none";
+                       }
+                    }
+                    var slideIndex = 1;
+                        showSlides(slideIndex);
+
+                        function plusSlides(n) {
+                          showSlides(slideIndex += n);
+                        }
+
+                        function currentSlide(n) {
+                          showSlides(slideIndex = n);
+                        }
+
+                        function showSlides(n) {
+                          var i;
+                          var slides = document.getElementsByClassName("mySlides");
+                          var dots = document.getElementsByClassName("dot");
+                          if (n > slides.length) {slideIndex = 1}    
+                          if (n < 1) {slideIndex = slides.length}
+                          for (i = 0; i < slides.length; i++) {
+                              slides[i].style.display = "none";  
+                          }
+                          for (i = 0; i < dots.length; i++) {
+                              dots[i].className = dots[i].className.replace(" active", "");
+                          }
+                          slides[slideIndex-1].style.display = "block";  
+                          dots[slideIndex-1].className += " active";
+                    }
+            </script>
+    </body>
+</html>
+
